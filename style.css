@@ -83,6 +83,10 @@ div > .main3 {
     width: 100%;
   }
 }
+p{
+  margin-left: 10px;
+  margin-top: 1cm;
+}
 /* medium devices*/
 @media (min-width: 950px) and (max-width: 1199px) {
   .col-md-1,
