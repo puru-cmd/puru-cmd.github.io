@@ -1,168 +1,148 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Personal Webpage</title>
-    <link rel="stylesheet" href="styles.css" />
-    <style>
-      *{
-        box-sizing: border-box;
-        margin: 10px;
-      }
-      body{
-        background-color: antiquewhite;
-      }
-      th{
-        text-align: left;
-      }
-      table{
-        border-spacing: 5px;
-        background-color: darkslategrey;
-        
-      }
-      th,td{
-        padding: 10px;
-      }
-      table,th,td{
-        border: 1px solid red;
-        border-collapse: collapse;
-        color: floralwhite;
-      }
-      td > a{
-        color: gold;
-      }
-      .name{
-        background-color: darkslategrey;
-        border: 1px solid black;
-        padding: 20px;
-  
-      }
-      .name > h1{
-        color: floralwhite;
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="color1.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
 
-      }
-      .name > h1 > div{
-        color: gold;
-      }
-      .name > h3{
-        color: honeydew;
-      }
-      .img{
-        float: right;
-      }
-      .about{
-        color: dimgrey;
-      }
-      .about > h1{
-        text-align: center;
-        color: darkslategrey;
-      }
-      .bio > h1{
-        color: darkslategrey;
-      }
-      .project > h1{
-        color: darkslategrey;
-      }
-      .contact > h1{
-        color: darkslategrey;
-      }
-      .edu > h1{
-        color: darkslategrey;
-      }
-      .link > h3{
-        color: darkslategrey;
-      }
-    </style>
+    <!-- JS, Popper.js, and jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
   </head>
+
   <body>
-  <div class="name">
-      <h1>
-      <div>Hey, I'm</div>
-      PURUSHOTTAM PRASAD
-    </h1>
-    <h3>Student / Developer / Programmer</h3>
-  </div>
+    <section id="nav-bar">
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand" href="#"><img src="rest.png" alt="" /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <i class="fa fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Home ></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Testimonials</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </section>
 
-  <div class="img">
-    <img src="./puru.jpg" alt="" />
-  </div>
+    <!-------------------banner-section----------------------->
+    <section id="banner">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <p class="promo-title">Lorem ipsum</p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat
+              non veritatis, iure eum similique quia aperiam vero perferendis
+              adipisci neque hic, maxime minima, quis alias molestias numquam
+              ullam obcaecati officia!
+            </p>
+          </div>
+          <div class="col-md-6 text-center">
+            <img src="kitchen.jpg" class="img-fluid" />
+          </div>
+        </div>
+      </div>
+      <h1 class="text-center">Our Menu</h1>
+      <div class="row">
+        <div class=" col-md-4">
+          <div class="text-center">Chicken</div>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis velit
+            maiores amet quia soluta, delectus magni possimus asperiores quam,
+            deserunt quae cum consequuntur pariatur fugiat deleniti, quas enim
+            incidunt consectetur.
+          </p>
+        </div>
+        <div class="col-md-4">
+          <div class="text-center">Mutton</div>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam, nihil
+            deleniti? Ipsam reiciendis officiis aperiam necessitatibus quis,
+            molestiae pariatur inventore deleniti temporibus incidunt quia
+            excepturi, porro error tempore quas dolor.
+          </p>
+        </div>
+        <div class=" col-md-3">
+          <div class="text-center">Sushi</div>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro ab
+            impedit labore, iste quas perferendis saepe officiis molestias
+            doloribus excepturi repudiandae nisi quasi eius dolorum, beatae,
+            aliquam iure sunt similique.
+          </p>
+        </div>
+      </div>
 
-  <div class="about">
-    <h1>About Me</h1>
-    <p>
-      I'm a second year student of M.sc(mathematics & computing) at Indian
-      Institute of Technology Guwahati. I have done my graduation in
-      mathematics from University of Allahabad.
-    <div>In extra carricular activities, I
-      have done NCC 'A', 'B', 'C' certificate from 7 BR Battalion NCC Chapra.
-      My hobbies are not stable, it usually changes with time. Sometime I like to sing, sometime I like to dance, sometime
-      I
-      like to travel and sometime I
-      like to code, develop, learn new things. I want to see myself as an I.A.S
-      Ofiicer.</div>
-    </p>
-  </div>
-  
-  <div class="bio">
-    <h1>Bio</h1>
-    <ul>
-      <li>Born: 1998</li>
-      <li>Height: 5"11'</li>
-      <li>Eye Color: Black</li>
-      <li>Language: Hindi, English, Bhojpuri</li>
-    </ul>
-  </div>
-  
-  <div class="edu">
-    <h1>Education</h1>
-    <ul>
-      <li>Secondary: Islamia Sigh school cum Inter College, Siwan </li>
-      <li>Higher Secondary: Z.A Islamia Inter College, Siwan</li>
-      <li>Graduation: University of Allahabad, Prayagraj</li>
-      <li>Post Graduation: Indian Institute of Technology Guwahati,Guwahati</li>
-    </ul>
-  </div>
-  <div class="project">
-    <h1>Project</h1>
-    <table>
-      <th>Project Name</th>
-      <th>Details</th>
-      <th>Duration</th>
-      <th>Project Link</th>
-      <tr>
-        <td>Kishan Mall</td>
-        <td>Bidding consumers
-          <div> with farmers </div>
-        </td>
-        <td>3-4 months</td>
-        <td><a href="project.html">project page</a></td>
-      </tr>
-    </table>
-  </div>
-  <div class="link">
-    <h3>Course Link</h3>
-    <ul>
-      <li><a href="https://www.iitg.ac.in/ashok/MA518/">Course</a></li>
-    </ul>
-  </div>
-  
-  <div class="contact">
-    <h1>Contact</h1>
-    <div>Email - pprasad@iitg.ac.in</div>
-    <div>
-      Linkedin -
-      <a href="https://www.linkedin.com/in/purushottam-prasad-3a3d841b4">
-        https://www.linkedin.com/in/purushottam-prasad-3a3d841b4</a>
-    </div>
-    <div>Github - <a href="https://github.com/puru-cmd">https://github.com/puru-cmd </a></div>
-    <div>Mob - 8299627215</div>
-  </div>
-  
-  <br>
-  <br>
+    <!-------------------------services-section------------------->
+    <section id="services">
+      <div class="container">
+        <h1 class="title text-center">What we do ?</h1>
+        <div class="row text-center">
+          <div class="col-md-4 services">
+            <img src="wave1.jpeg" class="service-img" />
+            <h4>Growth</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem
+              temporibus deserunt eius quam nostrum. Voluptatem quae aliquam
+              pariatur voluptas sunt!
+            </p>
+          </div>
+          <div class="col-md-4 services">
+            <img src="wave2.jpeg" class="service-img" />
+            <h4>Brand</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem
+              temporibus deserunt eius quam nostrum. Voluptatem quae aliquam
+              pariatur voluptas sunt!
+            </p>
+          </div>
+          <div class="col-md-4 services">
+            <img src="wave3.jpeg" class="service-img" />
+            <h4>Ads</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem
+              temporibus deserunt eius quam nostrum. Voluptatem quae aliquam
+              pariatur voluptas sunt!
+            </p>
+          </div>
+        </div>
+        <button type="button" class="btn btn-primary">All services</button>
+      </div>
+    </section>
 
-  <div>&copy;2020 copyright</div>
-
+   
   </body>
 </html>
